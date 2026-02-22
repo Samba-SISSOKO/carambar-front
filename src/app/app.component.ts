@@ -1,12 +1,36 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { JokeService, Joke } from './services/joke.service';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'carambar-frontend';
+
+  joke: Joke | null = null;
+  loading = false;
+  error = '';
+
+  constructor(private jokeService: JokeService) { }
+
+  loadRandomJoke(): void {
+    this.loading = true;
+    this.error = '';
+
+    this.jokeService.getRandomJoke().subscribe({
+      next: (data) => {
+        this.joke = data;
+        this.loading = false;
+      },
+      error: () => {
+        this.error = 'Erreur lors du chargement';
+        this.loading = false;
+      }
+    });
+  }
 }

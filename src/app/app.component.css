@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #ff6b00;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #ff6b00;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e65c00;
+}
+
+.joke-card {
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #fff3e6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.question {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.answer {
+  font-size: 22px;
+}

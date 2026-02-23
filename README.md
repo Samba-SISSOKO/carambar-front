@@ -4,7 +4,8 @@ Application Front développée avec Angular.
 Elle consomme une API Node/Express permettant d’afficher une blague aléatoire.
 
 ## 🚀 Lien vers l'application en ligne
-(ajoute ici ton lien GitHub Pages)
+
+https://samba-sissoko.github.io/carambar-front/
 
 ## 🔗 Lien vers l'API
 https://carambar-api-c1vh.onrender.com

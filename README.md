@@ -31,8 +31,6 @@ https://carambar-api-c1vh.onrender.com/api/v1/blagues/random
 
 ---
 
----
-
 ## Accessible sur :
 
 http://localhost:4200
@@ -65,7 +63,6 @@ GitHub Pages (hébergement)
 
 
 ## 🛠 Installation en local
-
 
 git clone https://github.com/Samba-SISSOKO/carambar-front.git
 cd carambar-front

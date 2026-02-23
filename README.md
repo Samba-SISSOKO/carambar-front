@@ -33,13 +33,13 @@ https://carambar-api-c1vh.onrender.com/api/v1/blagues/random
 
 ---
 
-Accessible sur :
+## Accessible sur :
 
 http://localhost:4200
 
 ---
 
-📦 Build & Déploiement
+## 📦 Build & Déploiement
 
 Build production :
 
@@ -53,7 +53,7 @@ npx angular-cli-ghpages --dir=dist/carambar-frontend/browser
 
 ---
 
-🧩 Stack technique
+## 🧩 Stack technique
 
 Angular
 
@@ -66,7 +66,7 @@ GitHub Pages (hébergement)
 
 ## 🛠 Installation en local
 
-```bash
+
 git clone https://github.com/Samba-SISSOKO/carambar-front.git
 cd carambar-front
 npm install

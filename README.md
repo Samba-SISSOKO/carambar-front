@@ -1,20 +1,70 @@
-# Projet CDA – Frontend Carambar & co
 
-Application Front développée avec Angular.
-Elle consomme une API Node/Express permettant d’afficher une blague aléatoire.
 
-## 🚀 Lien vers l'application en ligne
 
-https://samba-sissoko.github.io/carambar-front/
+```markdown
+# 🍬 Carambar & Co – Frontend
 
-## 🔗 Lien vers l'API
-https://carambar-api-c1vh.onrender.com
+Projet CDA – Frontend Angular
+
+Application développée avec **Angular**.
+Elle consomme l’API Carambar pour afficher une blague aléatoire.
 
 ---
 
-## 🛠️ Installation en local
+## 🚀 Application en ligne
 
-Cloner le projet :
+https://samba-sissoko.github.io/carambar-front/
+
+---
+
+## 🔗 API utilisée
+
+https://carambar-api-c1vh.onrender.com/api/v1/blagues/random
+
+---
+
+## ⚙️ Fonctionnalités
+
+- Affichage d’une blague aléatoire
+- Connexion à l’API REST déployée sur Render
+- Application déployée sur GitHub Pages
+
+---
+
+---
+
+Accessible sur :
+
+http://localhost:4200
+
+---
+
+📦 Build & Déploiement
+
+Build production :
+
+ng build --configuration production --base-href /carambar-front/
+
+---
+
+Déploiement GitHub Pages :
+
+npx angular-cli-ghpages --dir=dist/carambar-frontend/browser
+
+---
+
+🧩 Stack technique
+
+Angular
+
+TypeScript
+
+HttpClient
+
+GitHub Pages (hébergement)
+
+
+## 🛠 Installation en local
 
 ```bash
 git clone https://github.com/Samba-SISSOKO/carambar-front.git
